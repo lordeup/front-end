@@ -1,5 +1,13 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
 
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
 .menu_buttons_position
 {
     max-width: 1000px;
@@ -18,10 +26,9 @@
     color: #000;
     text-decoration: none;
     
-    margin-left: 13px;
+    margin-left: 20px;
     padding: 16px 12px;
 }
-
 
 .menu_button:hover
 {
@@ -31,9 +38,9 @@
 
 .fa
 {
-    padding-right: 8px;
+    padding-right: 6px;
+    margin: 20px 0 15px 0;
 }
-
 
 .fa.fa-video-camera
 {
@@ -43,27 +50,37 @@
 
 .main
 {
-    position: relative;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+}
+
+.list_block
+{
+    margin-left: 15px;
 }
 
 .background
 {
+    padding-top: 210px;
+    background: no-repeat;
     background-image: url("images/background.png");
-    height: 400px;
-    
-    margin: -15px -8px 0 -8px;
+}
+
+.image_block
+{
+    margin: 0 0 40px 15px;
 }
 
 .left_block
 {
-    float:left;
-    width: 10px;
-    margin-left: 370px;
+    float: left;
+    width: 410px;
 }
 
 .right_block
 {
-    margin-left: 760px;
+    float: left;
+    width: 575px;
 }
 
 .my_photo
@@ -71,17 +88,16 @@
     width: 330px;
     height: 350px;
     border-radius: 5px;
-    
-    margin: 210px 0 42px -2px;
 }
 
-.list_block
+.list_header
 {
     font-size: 24px;
     font-family: "Open Sans";
     color: #15a98c;
     line-height: 1.333;
     font-weight: 600;
+    display: block;
 }
 
 .list
@@ -96,33 +112,43 @@
     width: 191px;
 }
 
+.paragraph
+{
+    font-size: 19px;
+    font-family: "Georgia";
+    color: #555;
+    line-height: 1.684;
+}
 
 .quotes
 {
-    font-family: "Georgia";
     font-size: 28px;
+    font-family: "Georgia";
     color: #fff;
     font-style: italic;
     line-height: 1.5;
-    
-    padding: 235px 0 0 0;
-    width: 430px;
+    text-align: left;
 }
 
 .words_speaker
 {
-    font-family: "Open Sans";
+    margin: 12px 0 0 0;
     font-size: 16px;
-    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
-    font-weight: bold;
-    
-    margin: -13px 0 90px 0;
+    font-weight: 600;
+    text-align: left;
 }
 
-.content
+.quote_block
 {
-    line-height: 36px;
+    margin: 25px 0 93px 13px;
+}
+
+
+.text_block
+{
+    margin-left: -5px;
     width: 480px;
 }
 
@@ -142,23 +168,9 @@
     background: #45c3aa;
     border-radius: 3px;
     
-    margin: 0 0 45px 2px;
+    margin: 32px 0 44px 0;
     width: 57px;
     height: 6px;
-}
-
-a:hover
-{
-    color: #098d72;
-}
-
-.communications
-{
-    font-family: "Georgia";
-    font-size: 19px;
-    line-height: 1.684;
-    
-    margin: 42.8px 0 110px 0;
 }
 
 .arrow
@@ -172,40 +184,37 @@ a:hover
     color: #15a98b;
 }
 
-.paragraph
+.link_color:hover
 {
-    font-family: "Georgia";
-    font-size: 19px;
-    line-height: 1.684;
-    color: #555;
+    color: #098d72;
 }
 
-.header
+.dream_header
 {
-    font-family: "Open Sans";
     font-size: 36px;
-    line-height: 1.167;
+    font-family: "Open Sans";
     color: #333;
+    line-height: 1.167;
+    font-weight: 400;
     
-    margin-top: 50px;
-}
-
-.about_me
-{
-    margin-bottom: 73px; /*  */
+    margin: 47px 0 27px -2px;
 }
 
 .dream
 {
-    font-weight: normal;
-    
-    margin: 10px 0 55px -5px;
-    height: 4px;  /* */
+    margin: -13px 0 42px 0;
 }
+
+.clear
+{
+    clear: both;
+}
+
 
 .movies
 {
-    padding-left: 245px;
+    width: 1200px;
+    margin: 0 auto;
     font-size: 0;
 }
 
@@ -213,11 +222,10 @@ a:hover
 {
     font-size: 36px;
     font-family: "Open Sans";
-    line-height: 1.167;
     color: #333;
-    font-weight: normal;
-    
-    margin: -18px 0 17px 0;
+    font-weight: 400;
+
+    margin: 88px 0 20px -10px;
 }
 
 .films_block
@@ -225,17 +233,21 @@ a:hover
     vertical-align: top;
     display: inline-block;
     
-    width: 286px;
-    margin: 17px 20px 60px 0;
+    width: 285px;
+    margin: 9px 20px 60px 0;
+}
+
+.interstellar
+{
+    margin-left: -10px;
 }
 
 .image_film
 {
     width: 285px;
     height: 190px;
-    border-radius: 5px;
-    
-    margin-bottom: 23px;
+    border-radius: 4px;
+    margin-bottom: 25px;
 }
 
 .film_header
@@ -251,25 +263,27 @@ a:hover
 {
     font-size: 16px;
     font-family: "Georgia";
-    line-height: 1.80;
     color: #555;
-    vertical-align: top;
+    line-height: 1.80;
+    text-align: left;
     
-    margin: 19px 0 85px 1px;
+    margin: 16px 0 85px 0;
+}
+
+.it
+{
+    margin: 9px 0 60px 0;
 }
 
 .button
 {
-    font-family: "Georgia";
-    font-size: 19px;
-    line-height: 1.684;
     border-radius: 5px;
     text-decoration: none;
     
     color: #f5f5f5;
     background: #15a98c;
     
-    margin-left: 483px;
+    margin-left: 474px;
     padding: 14px 55px;
 }
 
@@ -283,8 +297,7 @@ a:hover
 {
     background: #f9f9f9;
     text-align: center;
-    
-    margin-top: 80px;
+    margin-top: 82px;
 }
 
 .footer_text
@@ -295,5 +308,5 @@ a:hover
     color: #555;
     
     padding: 18px 0;
-    margin-left: 23px;
+    margin-left: -35px;
 }
