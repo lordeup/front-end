@@ -6,9 +6,25 @@
     outline: none;
 }
 
+.georgia_font
+{
+    font-size: 19px;
+    font-family: "Georgia";
+    color: #555;
+    line-height: 1.684;
+}
+
+.open_sans_font
+{
+    font-size: 36px;
+    font-family: "Open Sans";
+    color: #333;
+    line-height: 1.167;
+}
+
 .menu_buttons_position
 {
-    max-width: 1000px;
+    max-width: 970px;
     margin: 0 auto;
 }
 
@@ -19,13 +35,12 @@
 
 .menu_button
 {
-    font-size: 18px;
-    font-family: "Georgia";
-    color: #000;
+    font-weight: 400;
+    color: #333;
+    float: left;
     text-decoration: none;
     
-    margin-left: 20px;
-    padding: 15px 12px;
+    padding: 0px 16px 0px 20px;
 }
 
 .menu_button:hover
@@ -36,21 +51,13 @@
 
 .fa
 {
-    padding-right: 9px;
-    margin: 20px 0 15px 2px;
-}
-
-.fa.fa-heart
-{
-    margin-left: -8px;
-    padding-right: 7px;
+    padding-right: 10px;
+    margin: 20px 0 15px 0px;
 }
 
 .fa.fa-video-camera
 {
-    font-size: 15px;
-    margin-left: -10px;
-    padding-right: 10px;
+    padding-right: 16px;
 }
 
 .main
@@ -66,6 +73,7 @@
 
 .background
 {
+    margin-top: -5px;
     padding-top: 210px;
     background: no-repeat;
     background-image: url("images/background.png");
@@ -93,14 +101,6 @@
     width: 330px;
     height: 350px;
     border-radius: 5px;
-}
-
-.georgia_font
-{
-    font-size: 19px;
-    font-family: "Georgia";
-    color: #555;
-    line-height: 1.684;
 }
 
 .list_header
@@ -147,7 +147,6 @@
     margin: 25px 0 93px -5px;
 }
 
-
 .text_block
 {
     margin-left: -5px;
@@ -191,31 +190,22 @@
     color: #098d72;
 }
 
-.open_sans_font
-{
-    font-size: 36px;
-    font-family: "Open Sans";
-    color: #333;
-    line-height: 1.167;
-}
-
 .dream_header
 {
     font-weight: 400;
     
-    margin: 47px 0 27px -2px;
+    margin: 43px 0 27px -2px;
 }
 
 .dream
 {
-    margin: -13px 0 42px 0;
+    margin: -13px 0 43px 0;
 }
 
 .clear
 {
     clear: both;
 }
-
 
 .movies
 {
@@ -238,7 +228,7 @@
     display: inline-block;
     
     width: 285px;
-    margin: 9px 20px 60px 0;
+    margin: 12px 20px 60px 0;
 }
 
 .interstellar
@@ -276,7 +266,7 @@
 
 .it
 {
-    margin: 9px 0 60px 0;
+    margin: 12px 0 60px 0;
 }
 
 .button
@@ -453,7 +443,6 @@
     color: #f5f5f5;
     background: #15a98c;
 }
-
 
 .button_form:hover
 {
