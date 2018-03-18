@@ -17,8 +17,8 @@
                 </div>
             </nav>
         </div>
-        <div class="background">
-            <div class="main">
+        <div class="main_container">
+            <div class="info">
                 <div class="left_block">
                     <div class="image_block">
                         <img src="images/photo.jpg" alt="my photo" class="my_photo">
@@ -78,7 +78,7 @@
         </div>
         <div class="movies">
             <h3 class="open_sans_font love_film">Любимые фильмы</h3>
-            <div class="films_block interstellar">
+            <div class="films_block">
                 <img src="images/interstellar.jpg" alt="interstellar" class="image_film">
                 <span class="film_header">Интерстеллар</span>
                 <p class="movie_description">
@@ -137,18 +137,18 @@
                             <option value="United States of America">Соединённые Штаты Америки</option> 
                         </select>
                     </div>
-                    <div class="form_position">
+                    <div class="form_position_gender">
                         <div><label>Ваш пол</label></div>
-                        <label class="feedback_form">
-                            <input type="radio" name="gender" value="male" checked="checked">
+                        <label class="feedback_form gender_radio">
+                            <input type="radio" name="gender" value="male" checked="checked" class="gender_radio">
                             <span class="gender_text">Мужской</span>
                         </label>
-                        <label class="feedback_form">
-                            <input type="radio" name="gender" value="female">
+                        <label class="feedback_form gender_radio">
+                            <input type="radio" name="gender" value="female" class="gender_radio">
                             <span class="gender_text">Женский</span>
                         </label>
                     </div>
-                    <div class="form_position">
+                    <div class="form_position_message">
                         <label>Ваше сообщение <span class="star">*</span> </label>
                         <textarea name="about_me" class="your_message field_entering" rows="10"></textarea>
                     </div>

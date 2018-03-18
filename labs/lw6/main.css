@@ -60,7 +60,7 @@
     padding-right: 16px;
 }
 
-.main
+.info
 {
     max-width: 1000px;
     margin: 0 auto 50px;
@@ -71,7 +71,7 @@
     margin-left: 15px;
 }
 
-.background
+.main_container
 {
     margin-top: -5px;
     padding-top: 210px;
@@ -87,7 +87,7 @@
 .left_block
 {
     float: left;
-    width: 410px;
+    width: 400px;
 }
 
 .right_block
@@ -134,12 +134,13 @@
 
 .words_speaker
 {
-    margin: 12px 0 0 0;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-weight: 600;
     text-align: left;
+    
+    margin: 12px 0 0 0;
 }
 
 .quote_block
@@ -149,7 +150,6 @@
 
 .text_block
 {
-    margin-left: -5px;
     width: 480px;
 }
 
@@ -212,14 +212,16 @@
     width: 1200px;
     margin: 0 auto;
     font-size: 0;
+    padding-right: 13px
 }
 
 .love_film
 {
+    text-align: left;
     line-height: normal;
     font-weight: 400;
 
-    margin: 88px 0 20px -10px;
+    margin: 88px 0 30px 0px;
 }
 
 .films_block
@@ -228,12 +230,7 @@
     display: inline-block;
     
     width: 285px;
-    margin: 12px 20px 60px 0;
-}
-
-.interstellar
-{
-    margin-left: -10px;
+    margin: 4px 20px 0 0;
 }
 
 .image_film
@@ -241,7 +238,7 @@
     width: 285px;
     height: 190px;
     border-radius: 4px;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
 .film_header
@@ -250,7 +247,6 @@
     font-family: "Open Sans";
     color: #333;
     font-weight: bold;
-    line-height: 1.455;
 }
 
 .movie_description
@@ -258,15 +254,15 @@
     font-size: 16px;
     font-family: "Georgia";
     color: #555;
-    line-height: 1.80;
+    line-height: 1.75;
     text-align: left;
     
-    margin: 16px 0 85px 0;
+    margin-top: 22px;
 }
 
 .it
 {
-    margin: 12px 0 60px 0;
+    margin: 4px 0 155px 0;
 }
 
 .button
@@ -277,7 +273,7 @@
     color: #f5f5f5;
     background: #15a98c;
     
-    margin-left: 474px;
+    margin-left: 479px;
     padding: 14px 55px;
 }
 
@@ -287,33 +283,16 @@
     color: #f5f5f5;
 }
 
-.footer
-{
-    background: #f9f9f9;
-    text-align: center;
-    margin-top: 82px;
-}
-
-.footer_text
-{
-    font-size: 16px;
-    font-family: "Georgia";
-    line-height: 2;
-    color: #555;
-    
-    padding: 18px 0;
-    margin-left: -35px;
-}
-
 .form
 {
     margin: 0 auto;
     width: 900px;
+    margin-left: 313px;
 }
 
 .form_title
 {
-    margin: 115px 0 70px -15px;
+    margin: 115px 0 67px 95px;
     text-align: center;
 }
 
@@ -335,7 +314,7 @@
 .form_description
 {
     margin: 0 auto;
-    width: 450px;
+    width: 530px;
 }
 
 .feedback_form
@@ -348,7 +327,8 @@
 
 .form_position
 {
-    margin: 0 0 23px -50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
     transition-duration: 0.5s;
 }
 
@@ -361,27 +341,15 @@
 {
     border: 2px solid #c9c9c9;
     
-    margin-bottom: 30px;
+    margin-top: 8px;
     padding-left: 20px;
     width: 515px;
-    height: 44px;
+    height: 45px;
 }
 
 .field_entering:hover
 {
     border: 2px solid #a6a6a6;
-}
-
-.select_arrow
-{
-    margin: 20px 0 0 495px;
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    background-image: url('images/arrow.png');
-    background-position: right;
-    background-repeat:no-repeat;
-    pointer-events: none;
 }
 
 .field_entering:focus
@@ -391,6 +359,10 @@
 
 .form_country
 {
+    background-image: url('images/arrow.png');
+    cursor: pointer;
+    background-repeat:no-repeat;
+    background-position: 97%;
     -webkit-appearance: none;
     width: 540px;
     margin-top: 6px;
@@ -416,17 +388,35 @@
     border: 2px solid #15a98c;
 }
 
+.form_position_gender
+{
+    margin: 40px 0 37px 50px;
+}
+
+.gender_radio
+{
+    cursor: pointer;
+    padding-right: 40px;
+    margin-top: 15px;
+}
+
 .gender_text
 {
-    margin: 0 36px 0 9px;
     font-size: 18px;
     font-family: "Open Sans";
     color: #333;
     line-height: 1.778;
 }
 
+.form_position_message
+{
+    margin: 0 0 40px 50px;
+    transition-duration: 0.5s;
+}
+
 .your_message
 {
+    margin-top: 5px;
     width: 515px;
     height: 144px;
     resize: none;
@@ -437,8 +427,9 @@
 
 .button_form
 {
+    cursor: pointer;
     border-radius: 5px;
-    margin: 0 0 0 -50px;
+    margin-left: 50px;
     padding: 9px 62px;
     color: #f5f5f5;
     background: #15a98c;
@@ -447,4 +438,23 @@
 .button_form:hover
 {
     background: #098d72;
+}
+
+.footer
+{
+    background: #f9f9f9;
+    text-align: center;
+    
+    margin-top: 50px;
+}
+
+.footer_text
+{
+    font-size: 16px;
+    font-family: "Georgia";
+    line-height: 2;
+    color: #555;
+    
+    padding: 18px 0;
+    margin-left: -35px;
 }

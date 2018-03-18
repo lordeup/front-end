@@ -4,33 +4,21 @@
         <title>Страница о себе</title>
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic" rel="stylesheet">
         <meta charset="utf-8">
     </head>
      <body>
         <div class="menu_buttons_position">
-            <ul>
-                <li class="menu_list">
-                    <a href="#" class="menu_button">
-                        <i class="fa fa-user icon" aria-hidden="true"></i>
-                        Обо мне
-                    </a>
-                </li>
-                <li class="menu_list">
-                    <a href="#" class="menu_button">
-                        <i class="fa fa-heart" aria-hidden="true"></i>
-                        Мои мечты
-                    </a>
-                </li>
-                <li class="menu_list">
-                    <a href="#" class="menu_button">
-                        <i class="fa fa-video-camera" aria-hidden="true"></i>
-                        Любимые фильмы
-                    </a>
-                </li>
-            </ul>
+            <nav>
+                <div class="menu_list georgia_font">
+                    <a href= "#" class="menu_button"><i class="fa fa-user"></i>Обо мне</a>
+                    <a href= "#" class="menu_button"><i class="fa fa-heart"></i>Мое хобби</a>
+                    <a href= "#" class="menu_button"><i class="fa fa-video-camera"></i>Любимые фильмы</a>
+                </div>
+            </nav>
         </div>
-        <div class="background">
-            <div class="main">
+        <div class="main_container">
+            <div class="info">
                 <div class="left_block">
                     <div class="image_block">
                         <img src="images/photo.jpg" alt="my photo" class="my_photo">
@@ -39,7 +27,7 @@
                         <span class="list_header">
                             Баллы:
                         </span>
-                        <ul class="list">
+                        <ul class="georgia_font list">
                             <li>Математика - 62</li>
                             <li>Математика База - 19</li>
                             <li>Физика - 58</li>
@@ -48,7 +36,7 @@
                         <span class="list_header">
                             Качества:
                         </span>
-                        <ol class="list">
+                        <ol class="georgia_font list">
                             <li>Концентрация</li>
                             <li>Коммуникативность</li>
                             <li>Ответственность</li>
@@ -70,16 +58,16 @@
                             Андрей Каланов
                         </h1>
                         <p class="rectangle_name"></p>
-                        <p class="paragraph">
+                        <p class="georgia_font">
                             Меня зовут Андрей. Мне восемнадцать лет. В данный момент учусь на первом курсе специальности ПС. Закончил школу №20 в городе Йошкар-Оле. Люблю летом кататься на роликах. Пошёл на ПС, птому что у меня брат окончил эту специальность и мне тоже захотелось.
                         </p>
-                        <h2 class="dream_header">
+                        <h2 class="open_sans_font dream_header">
                             Мои мечты
                         </h2>
-                        <p class="paragraph dream">
+                        <p class="georgia_font dream">
                             Мне очень хочется написать программу связанную с искусственным интеллектом, которая будет упрощать жизнь человека и делать всю рутинную работу за него. Моя мечта стать программистом высыкого уровня.
                         </p>
-                        <p class="paragraph">
+                        <p class="georgia_font">
                             <a href="https://vk.com/sailjpg" class="link_color">Напиши мне</a>
                             <a href="https://vk.com/sailjpg" class="arrow">→</a>
                         </p>
@@ -88,10 +76,9 @@
             </div>
             <div class="clear"></div>
         </div>
-
         <div class="movies">
-            <h3 class="love_film">Любимые фильмы</h3>
-            <div class="films_block interstellar">
+            <h3 class="open_sans_font love_film">Любимые фильмы</h3>
+            <div class="films_block">
                 <img src="images/interstellar.jpg" alt="interstellar" class="image_film">
                 <span class="film_header">Интерстеллар</span>
                 <p class="movie_description">
@@ -121,7 +108,7 @@
             </div>
             <div class="clear"></div>
             <div>
-                <a href="#" class="paragraph button">Все фильмы</a>
+                <a href="#" class="georgia_font button">Все фильмы</a>
             </div>
         </div>
         <div class="footer">
