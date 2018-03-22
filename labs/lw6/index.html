@@ -4,7 +4,7 @@
         <title>Страница о себе</title>
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400,600,700&subset=cyrillic" rel="stylesheet">
         <meta charset="utf-8">
     </head>
      <body>
@@ -73,8 +73,8 @@
                         </p>
                     </div>
                 </div>
+                <div class="clear"></div>
             </div>
-            <div class="clear"></div>
         </div>
         <div class="background_movies">
             <div class="movies">
@@ -123,21 +123,24 @@
             <div class="form_description">
                 <form action="php/form_handler.php" name="form" method="post" class="feedback_form">
                     <div class="form_position">
-                        <label>Ваше имя <span class="star">*</span></label>
-                        <input name="name" type="text" class="field_entering">
+                        <label>Ваше имя <span class="star">*</span>
+                            <input name="name" type="text" class="field_entering form_text">
+                        </label>
                     </div>
                     <div class="form_position">
-                        <label>Ваш email <span class="star">*</span></label>
-                        <input name="email" type="text" class="field_entering">
+                        <label>Ваш email <span class="star">*</span>
+                            <input name="email" type="text" class="field_entering form_text">
+                        </label>
                     </div>
                     <div class="form_position">
-                        <label>Откуда вы?</label>
-                        <div class="select_arrow"></div>
-                        <select name="country" class="form_country form_country_text">
-                            <option value="Russia">Россия</option>
-                            <option value="Ukraine">Украина</option>
-                            <option value="United States of America">Соединённые Штаты Америки</option> 
-                        </select>
+                        <label>Откуда вы?
+                            <div class="select_arrow"></div>
+                            <select name="country" class="form_country form_text">
+                                <option value="Russia">Россия</option>
+                                <option value="Ukraine">Украина</option>
+                                <option value="United States of America">Соединённые Штаты Америки</option> 
+                            </select>
+                        </label>
                     </div>
                     <div class="form_position_gender">
                         <div><label>Ваш пол</label></div>
@@ -151,8 +154,9 @@
                         </label>
                     </div>
                     <div class="form_position_message">
-                        <label>Ваше сообщение <span class="star">*</span> </label>
-                        <textarea name="about_me" class="your_message field_entering" rows="10"></textarea>
+                        <label>Ваше сообщение <span class="star">*</span>
+                            <textarea name="about_me" class="your_message field_entering form_text" rows="10"></textarea>
+                        </label>
                     </div>
                     <button type="submit" value="Отправить" class="georgia_font button_form">Отправить</button>
                 </form>
