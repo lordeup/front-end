@@ -88,28 +88,23 @@
 
 @media screen and (max-width: 950px)
 {
+    .films
+    {
+        margin-bottom: 15px;
+    }
+    
     .films,
     .films_fourth
     {
-        width: 100%;
-        max-width: 600px;
+        max-width: 650px;
         margin: 0 auto;
     }
 
-    .films
-    {
-        margin-bottom: 40px;
-    }
-
-    .film_photo
-    {
-        width: 100%;
-        max-width: 650px;
-    }
-
+    .film_photo,
     .film_header,
     .film_text
     {
+        width: 100%;
         max-width: 650px;
     }
 }
@@ -132,14 +127,14 @@
         background: #fff;
     }
 
-    .menu li
-    {
-        float: none;
-    }
-
     .hamburger_button
     {
         display: inline-block;
+    }
+    
+    .menu li
+    {
+        float: none;
     }
 }
 
