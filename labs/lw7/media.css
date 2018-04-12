@@ -1,0 +1,187 @@
+@media screen and (max-width: 1350px)
+{
+    .love_film
+    {
+        text-align: center;
+    }
+    
+    .film_photo,
+    .film_header,
+    .film_text
+    {
+        max-width: 450px;
+    }
+
+    .films,
+    .films_fourth
+    {
+        max-width: 450px;
+        margin: 0 auto 50px;
+    }
+
+    .movies
+    {
+        max-width: 1000px;
+        text-align: left;
+    }
+    
+    .button_movies
+    {
+        margin: 30px auto 0;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    .top_block
+    {
+        text-align: center;
+    }
+    
+    .list_block
+    {
+        position: relative;
+        display: inline-block;
+    }
+
+    .list
+    {
+        list-style-position: outside;
+    }
+    
+    .about_me
+    {
+        float: left;
+        max-width: none;
+        margin-top: 1px;
+    }
+    
+    .about,
+    .dream
+    {
+        max-width: none;
+    }
+    
+    .about
+    {
+        margin-top: -20px;
+    }
+    
+    .photo
+    {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    .quote_block
+    {
+        float: none;
+        display: inline-block;
+    }
+
+    .quote,
+    .words_speaker
+    {
+        color:#333;
+    }
+}
+
+@media screen and (max-width: 950px)
+{
+    .films,
+    .films_fourth
+    {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .films
+    {
+        margin-bottom: 40px;
+    }
+
+    .film_photo
+    {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .film_header,
+    .film_text
+    {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 740px)
+{
+    .form_title:after,
+    .form_title:before
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 555px)
+{
+    .menu
+    {
+        position: absolute;
+        display: none;
+        background: #fff;
+    }
+
+    .menu li
+    {
+        float: none;
+    }
+
+    .hamburger_button
+    {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 540px)
+{
+    .list_block
+    {
+        max-width: 300px;
+    }
+
+    .numbered_list
+    {
+        float: left;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .name
+    {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 385px)
+{
+    .love_film
+    {
+        font-size: 33px;
+    }
+    
+    .name
+    {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .name
+    {
+        font-size: 32px;
+    }
+}
