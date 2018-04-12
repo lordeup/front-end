@@ -40,13 +40,17 @@
     
     .list_block
     {
-        position: relative;
-        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 700px;
+        margin-top: 20px;
     }
-
-    .list
+    
+    .bulleted_list
     {
-        list-style-position: outside;
+        float: left;
+        max-width: 250px;
+        margin: 0 60px 0 180px;
     }
     
     .about_me
@@ -109,12 +113,43 @@
     }
 }
 
+@media screen and (max-width: 748px)
+{
+    .bulleted_list
+    {
+        float: left;
+        max-width: 250px;
+        margin: 0 60px 0 50px;
+    }
+}
+
+
 @media screen and (max-width: 740px)
 {
     .form_title:after,
     .form_title:before
     {
         display: none;
+    }
+}
+
+@media screen and (max-width: 605px)
+{
+    .bulleted_list
+    {
+        float: left;
+        max-width: 250px;
+        margin: 0 60px 0 0px;
+    }
+}
+
+@media screen and (max-width: 598px)
+{
+    .quote_block
+    {
+        margin-left: 30px;
+        text-align: center;
+        max-width: 90%;
     }
 }
 
@@ -138,25 +173,40 @@
     }
 }
 
-@media screen and (max-width: 540px)
+
+@media screen and (max-width: 550px)
 {
     .list_block
     {
-        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 330px;
+       
     }
-
+    .bulleted_list,
     .numbered_list
     {
-        float: left;
+        float: none;
         margin-bottom: 40px;
     }
 }
+
 
 @media screen and (max-width: 480px)
 {
     .name
     {
         font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 440px)
+{
+    .quote_block
+    {
+        margin-left: 20px;
+        text-align: center;
+        max-width: 75%;
     }
 }
 
