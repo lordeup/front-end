@@ -92,16 +92,12 @@
 
 @media screen and (max-width: 950px)
 {
-    .films
-    {
-        margin-bottom: 15px;
-    }
-    
     .films,
     .films_fourth
     {
         max-width: 650px;
         margin: 0 auto;
+        margin-bottom: 15px;
     }
 
     .film_photo,
