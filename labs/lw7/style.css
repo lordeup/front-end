@@ -453,6 +453,7 @@ select
 {
     height: 150px;
     resize: none;
+    margin-top: 2px;
 }
 
 .form_user input[type='submit']

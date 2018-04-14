@@ -203,19 +203,11 @@
 {
     .love_film
     {
-        font-size: 33px;
+        font-size: 30px;
     }
     
     .name
     {
-        font-size: 34px;
-    }
-}
-
-@media screen and (max-width: 350px)
-{
-    .name
-    {
-        font-size: 32px;
+        font-size: 30px;
     }
 }
