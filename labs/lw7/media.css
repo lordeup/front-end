@@ -1,6 +1,6 @@
 @media screen and (max-width: 1350px)
 {
-    .love_film
+    .favorite_film
     {
         text-align: center;
     }
@@ -50,7 +50,7 @@
     {
         float: left;
         max-width: 250px;
-        margin: 0 60px 0 0px;
+        margin: 0 60px 0 0;
     }
     
     .about_me
@@ -97,7 +97,7 @@
     {
         max-width: 650px;
         margin: 0 auto;
-        margin-bottom: 15px;
+        margin-bottom: 55px;
     }
 
     .film_photo,
@@ -125,7 +125,7 @@
     {
         float: left;
         max-width: 250px;
-        margin: 0 60px 0 0px;
+        margin: 0 60px 0 0;
     }
 }
 
@@ -201,9 +201,9 @@
 
 @media screen and (max-width: 385px)
 {
-    .love_film
+    .favorite_film
     {
-        font-size: 30px;
+        font-size: 29px;
     }
     
     .name
