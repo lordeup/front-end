@@ -1,3 +1,4 @@
+"use strict";
 $(function() {
     $('.hamburger_button').on('click', function() {
          $('.menu').slideToggle(300, function () {
