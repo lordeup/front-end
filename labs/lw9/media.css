@@ -1,0 +1,259 @@
+@media screen and (max-width: 1350px)
+{
+    .favorite_film
+    {
+        text-align: center;
+    }
+    
+    .film_photo,
+    .film_header,
+    .film_text
+    {
+        max-width: 450px;
+    }
+
+    .films,
+    .films_fourth
+    {
+        max-width: 450px;
+        margin: 0 auto 50px;
+    }
+
+    .movies
+    {
+        max-width: 1000px;
+        text-align: left;
+    }
+    
+    .button_movies
+    {
+        margin: 30px auto 0;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    .top_block
+    {
+        text-align: center;
+        margin: 100px 0 0 0;
+    }
+    
+    .about_me
+    {
+        float: left;
+        max-width: none;
+        margin-top: 1px;
+    }
+    
+    .about,
+    .dream
+    {
+        max-width: none;
+    }
+    
+    .about
+    {
+        margin-top: -20px;
+    }
+    
+    .photo
+    {
+        display: inline-block;
+    }
+    
+    .quote_block
+    {
+        float: none;
+        display: inline-block;
+    }
+
+    .quote,
+    .words_speaker
+    {
+        color:#333;
+    }
+    
+    .list_block
+    {
+        width: 100%;
+        max-width: 600px;
+        margin: 5px 0 35px 0;
+    }
+    
+    .bulleted_list
+    {
+        float: left;
+        margin: 0 60px 0 0;
+    }
+}
+
+@media screen and (max-width: 1055px)
+{
+    .films,
+    .films_fourth
+    {
+        max-width: 650px;
+        margin-bottom: 55px;
+    }
+
+    .film_photo,
+    .film_header,
+    .film_text
+    {
+        width: 100%;
+        max-width: 650px;
+    }
+    
+    .button_movies
+    {
+        margin: 30px 325px 0;
+    }
+}
+
+@media screen and (max-width: 980px)
+{
+    .button_movies
+    {
+        margin: 30px auto 0;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .modal_window
+    {
+        width: 484px;
+    }
+    
+    .close
+    {
+        margin-left: 430px;
+    }
+    
+    .modal_window_title
+    {
+        font-size: 31px;
+        width: 400px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 740px)
+{
+    .form_title:after,
+    .form_title:before
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 605px)
+{
+    .quote_block
+    {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        max-width: 90%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 555px)
+{
+    .menu
+    {
+        position: absolute;
+        display: none;
+        background: #fff;
+    }
+    
+    .menu a
+    {
+        display: block;
+    }
+    
+    .hamburger_button
+    {
+        display: inline-block;
+    }
+    
+    .menu li
+    {
+        float: none;
+    }
+    
+    .list_block
+    {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 330px;
+    }
+    
+    .bulleted_list,
+    .numbered_list
+    {
+        float: none;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 525px)
+{
+    .modal_window
+    {
+        width: 360px;
+    }
+    
+    .close
+    {
+        margin-left: 308px;
+    }
+    
+    .modal_window_title
+    {
+        font-size: 28px;
+        width: 300px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .name
+    {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 410px)
+{
+    .modal_window
+    {
+        width: 280px;
+    }
+    
+    .close
+    {
+        margin-left: 240px;
+    }
+    
+    .modal_window_title
+    {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 385px)
+{
+    .favorite_film
+    {
+        font-size: 29px;
+    }
+    
+    .name
+    {
+        font-size: 30px;
+    }
+}
