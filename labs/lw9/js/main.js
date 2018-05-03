@@ -53,16 +53,16 @@ function changeFocus() {
   this.style.borderColor = null;
 }
 
-function requiredField() {
+function requiredField(event) {
   var name = getById('name');
   var email = getById('email');
   var blank = '';
   event.preventDefault();
-  if(name.value == blank) {
+  if(name.value === blank) {
     name.style.borderColor = '#ee0707';
   }
 
-  if(email.value == blank) {
+  if(email.value === blank) {
     email.style.borderColor = '#ee0707';
   }
 }
